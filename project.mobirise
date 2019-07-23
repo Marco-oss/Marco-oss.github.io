@@ -1,0 +1,68 @@
+{
+  "settings": {
+    "name": "My Site",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise4",
+      "title": "Mobirise 4",
+      "styling": {
+        "primaryColor": "#149dcc",
+        "secondaryColor": "#ff3366",
+        "successColor": "#F7ED4A",
+        "infoColor": "#82786E",
+        "warningColor": "#879A9F",
+        "dangerColor": "#B1A374",
+        "mainFont": "Rubik",
+        "display1Font": "Rubik",
+        "display1Size": 4.25,
+        "display2Font": "Rubik",
+        "display2Size": 3,
+        "display5Font": "Rubik",
+        "display5Size": 1.5,
+        "display7Font": "Rubik",
+        "display7Size": 1,
+        "display4Font": "Rubik",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "path": "@PROJECT_PATH@",
+    "siteFonts": [],
+    "versionFirst": "4.7.6",
+    "uniqCompNum": 10,
+    "versionPublish": "4.10.5",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">\n<meta content=\"IE=edge\" http-equiv=\"X-UA-Compatible\">\n<title></title>\n<style>\nbody {margin:0; padding:1em; background-color:white;}\n#she {background-color:white;color:black;font-family:Arial,Helvetica,sans-serif;font-size:1em;font-weight:normal;line-height:normal;max-width:800px;}\n</style>\n\n\n\t<div id=\"she\">\n\t<!-- Add the following insertion code (e.g. inside a div) into your host page -->\n\t<!-- Form Insertion Code - START -->\n\t\t<div id=\"awf-form\">[JS_CODE_0]</div><noscript>Please enable javascript in your browser!</noscript>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Estensioni"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-9",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>var awf_load=new XMLHttpRequest();awf_load.open('GET','Form Arclab.php?js=awf');awf_load.onreadystatechange=function(){if(awf_load.readyState===4&&awf_load.status===200){var s=document.createElement('script');s.innerHTML=awf_load.responseText;document.head.appendChild(s);awf_Run('awf-form');}};awf_load.send();</script>"
+          ]
+        }
+      ]
+    }
+  }
+}
