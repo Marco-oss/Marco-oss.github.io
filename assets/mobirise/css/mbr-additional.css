@@ -1425,3 +1425,15 @@ body {
   font-size: 60px;
   color: #777;
 }
+.cid-rx5giyY9j6 {
+  background: #ffffff;
+}
+.cid-rx5giyY9j6 .video-block {
+  margin: auto;
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .cid-rx5giyY9j6 .video-block {
+    width: 100% !important;
+  }
+}
